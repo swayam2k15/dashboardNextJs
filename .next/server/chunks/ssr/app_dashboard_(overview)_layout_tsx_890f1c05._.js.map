@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/Swayam/Desktop/Swayam/dashboardNextJs/app/dashboard/%28overview%29/layout.tsx"],"sourcesContent":["import SideNav from '@/app/ui/dashboard/sidenav';\nexport const experimental_ppr = true;\n\n \nexport default function Layout({ children }: { children: React.ReactNode }) {\n  return (\n    <div className=\"flex h-screen flex-col md:flex-row md:overflow-hidden\">\n      <div className=\"w-full flex-none md:w-64\">\n        <SideNav />\n      </div>\n      <div className=\"flex-grow p-6 md:overflow-y-auto md:p-12\">{children}</div>\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;AAAA;;;AACO,MAAM,mBAAmB;AAGjB,SAAS,OAAO,EAAE,QAAQ,EAAiC;IACxE,qBACE,4XAAC;QAAI,WAAU;;0BACb,4XAAC;gBAAI,WAAU;0BACb,cAAA,4XAAC,kIAAA,CAAA,UAAO;;;;;;;;;;0BAEV,4XAAC;gBAAI,WAAU;0BAA4C;;;;;;;;;;;;AAGjE","debugId":null}}]
+}
